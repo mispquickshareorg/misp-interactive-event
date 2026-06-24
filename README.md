@@ -2,7 +2,7 @@
 
 A guided, interactive CLI tool for creating DDoS events in [MISP](https://www.misp-project.org/), following the Streamlined MISP DDoS Playbook.
 
-It walks you through prompts for all event details — with validation at every step — then creates a properly structured event in your MISP instance.
+It walks you through prompts for all event details - with validation at every step - then creates a properly structured event in your MISP instance.
 
 ## What it creates
 
@@ -17,9 +17,9 @@ Each event is created with:
 
 ## Why it's minimal
 
-- **No auto-update, no subprocess calls** — the tool never shells out or contacts anything other than your configured MISP URL.
+- **No auto-update, no subprocess calls** - the tool never shells out or contacts anything other than your configured MISP URL.
 - Single, focused command (no bundled sub-commands).
-- Inline configuration loading — easy to read and audit.
+- Inline configuration loading - easy to read and audit.
 
 ## Requirements
 
@@ -44,8 +44,8 @@ cp .env.example .env
 
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
-| `MISP_URL` | Yes | — | Base URL of your MISP instance (`https://...`) |
-| `MISP_API_KEY` | Yes | — | Your MISP API authentication key |
+| `MISP_URL` | Yes | - | Base URL of your MISP instance (`https://...`) |
+| `MISP_API_KEY` | Yes | - | Your MISP API authentication key |
 | `MISP_VERIFY_SSL` | No | `true` | Set to `false` for self-signed certificates |
 | `MISP_TIMEOUT` | No | `30` | Request timeout in seconds |
 

@@ -109,7 +109,7 @@ def prompt_event_details() -> dict:
             break
 
     # Destination IPs (optional)
-    console.print("\n[bold]Destination IPs[/bold] [dim](optional — press Enter to skip)[/dim]")
+    console.print("\n[bold]Destination IPs[/bold] [dim](optional - press Enter to skip)[/dim]")
     destination_ips: List[str] = []
     while True:
         ip = _ask(
